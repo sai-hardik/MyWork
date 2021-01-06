@@ -1,0 +1,13 @@
+HASKELL is a functional programming language.
+Does lazy evaluation( short circuit evaluation) and type inference( detects the type of an expression in a normal language)
+You can take any program expression as compile it in three ways given below
+--> Identity function x=x
+--> Constant function x.y=x
+--> Distribution of arguments from an expression like fgx= fx (gx)
+example of a program (quicksort) in HASKELL:
+f [] = []                       # empty list
+f(x:xs) = f ys ++ [x] ++ f zs   # splitting the list
+          where
+            ys = [ a | a <- xs, a<=x]
+            zs = [ b | b <- xs, b>x]
+            
