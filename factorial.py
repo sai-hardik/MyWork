@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  4 18:59:46 2020
 
-@author: babut
+@author: hardik
 """
 def fact(n):
     return 1 if (n==1 or n==0) else n * fact(n - 1);
