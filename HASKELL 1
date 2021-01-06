@@ -1,6 +1,6 @@
 HASKELL is a functional programming language.
 Does lazy evaluation( short circuit evaluation) and type inference( detects the type of an expression in a normal language)
-You can take any program expression as compile it in three ways given below
+You can take any program expression and compile it in three ways given below
 --> Identity function x=x
 --> Constant function x.y=x
 --> Distribution of arguments from an expression like fgx= fx (gx)
