@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  4 19:18:58 2020
 
-@author: babut
+@author: hardik
 """
 
 def fib(n):
