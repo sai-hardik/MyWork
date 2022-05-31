@@ -21,7 +21,8 @@
 # SAN #
   * primarily used to access data storage devices, such as disk arrays and tape libraries from servers so that the devices appear to the operating system as direct-         attached storage
 
-# Short Swappable #
+# Hot Swappable #
+  * computing of devices capable of being inserted or removed from a computer system that is running, without causing damage or affecting performance
   
 # Switch #
   * They connect devices in a network and use packet switching to send, receive or forward data packets or data frames over the network.
