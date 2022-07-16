@@ -4,13 +4,13 @@
 
 bool generate_key()
 {
-	int				ret = 0;
-	RSA				*r = NULL;
-	BIGNUM			*bne = NULL;
-	BIO				*bp_public = NULL, *bp_private = NULL;
+	int ret = 0;
+	RSA *r = NULL;
+	BIGNUM	*bne = NULL;
+	BIO *bp_public = NULL, *bp_private = NULL;
 
-	int				bits = 2048;
-	unsigned long	e = RSA_F4;
+	int bits = 2048;
+	unsigned long e = RSA_F4;
 
 	// 1. generate rsa key
 	bne = BN_new();
